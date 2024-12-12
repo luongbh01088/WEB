@@ -1,0 +1,132 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.5em; /* Slightly smaller logo font */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em; /* Slightly smaller font for nav */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Navigation Styling */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+}
+
+/* Product Details Section */
+section.product-details {
+    padding: 30px 15px; /* Reduced padding */
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+section.product-details h2 {
+    font-size: 1.6em; /* Reduced title size */
+    margin-bottom: 15px;
+}
+
+section.product-details .product-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 600px; /* Reduced container width */
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Smaller shadow */
+}
+
+section.product-details img {
+    width: 200px; /* Further reduced image size */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+section.product-details p {
+    margin: 8px 0;
+    font-size: 0.9em; /* Smaller font size */
+}
+
+section.product-details .btn {
+    display: inline-block;
+    padding: 8px 15px; /* Smaller button padding */
+    margin-top: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em; /* Smaller button text */
+}
+
+section.product-details .btn-success {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+section.product-details .btn-success:hover {
+    background-color: #4cae4c;
+}
+
+section.product-details .back-link {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9em; /* Smaller back link text */
+}
+
+section.product-details .back-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 0; /* Smaller footer padding */
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em; /* Smaller footer text */
+}
